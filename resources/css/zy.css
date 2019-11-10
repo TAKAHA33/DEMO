@@ -1,0 +1,671 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../img/5c80e860cbd26.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6, p {
+	cursor: default;
+}
+div {
+	overflow: hidden;
+}
+.row {
+	margin: 0;
+}
+.visitor-headline, .visitor-induction, .visitor-recommend, .visitor-blog, .visitor-joinus {
+	width: 100%;
+	height: 670px;
+}
+.visitor-headline-text {
+	margin-top: 180px;
+	text-align: center;
+}
+.visitor-headline-text h1 {
+	color: white;
+	font-size: 118px;
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+	font-style: oblique;
+	text-shadow: 5px 5px 5px rgb(48, 48, 48,0.6);
+}
+.visitor-headline-line {
+	padding: 0;
+	text-align: center;
+}
+.visitor-headline-line h1{
+	margin-top: 10px;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 24px;
+}
+.visitor-headline-line-blue {
+	color: #FF8300FF;
+}
+.visitor-headline-line-ls {
+	letter-spacing: 0;
+}
+.visitor-headline-login {
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: SimHei;
+}
+.visitor-headline-login button {
+	width: 120px;
+	height: 35px;
+	background-color: transparent;
+	border: 2px solid white;
+	letter-spacing: 3px;
+	border-radius: 20px;
+}
+.visitor-headline-down {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 50px;
+	animation:updown 2s infinite;
+}
+.visitor-headline-down a {
+	color: white;
+	font-family: SimHei;
+	transition: .4s;
+}
+@keyframes updown
+{
+	0% {margin-top:40px;}
+    25% {margin-top:50px;}
+    50% {margin-top:40px;}
+    75% {margin-top:50px;}
+    100% {margin-top:40px;}
+}
+.visitor-headline-down a:hover {
+	color: #FF8300FF;
+	text-decoration: none;
+}
+.visitor-headline-down a:focus {
+	text-decoration: none;
+}
+/*介绍界面开始*/
+.visitor-induction {
+	/*background-color: #FFFFFFFF;*/
+	background-image: url(../img/345345.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.visitor-induction-box {
+	margin: 0 auto;
+	margin-top: 90px;
+	padding-left: 44px;
+	width: 1200px;
+	height: 500px;
+}
+.visitor-induction-box-left ,.visitor-induction-box-right {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 45px;
+	padding: 50px;
+	width: 450px;
+	height: 100%;
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.visitor-induction-box-left h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: white;
+	font-weight: lighter;
+}
+.visitor-induction-box-left p {
+	color: white;
+	font-size: 16px;
+}
+.visitor-induction-box-left-line {
+	margin-bottom: 20px;
+	width: 60px;
+	height: 2px;
+	background-color: #FF8300FF;
+}
+.visitor-induction-box-right {
+	margin: 0;
+	width: 600px;
+	height: 100%;
+	background-color: transparent;
+}
+.visitor-induction-box-right-1 {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 280px;
+	height: 200px;
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.visitor-induction-box-right-2 {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	width: 280px;
+	height: 200px;
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.visitor-induction-box-right-3 {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 280px;
+	height: 200px;
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.visitor-induction-box-right-4 {
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	width: 280px;
+	height: 200px;
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.visitor-induction-box-right-1 h3,.visitor-induction-box-right-2 h3,.visitor-induction-box-right-3 h3,.visitor-induction-box-right-4 h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: white;
+}
+.visitor-induction-box-right-1 p,.visitor-induction-box-right-2 p,.visitor-induction-box-right-3 p,.visitor-induction-box-right-4 p {
+	text-align: left;
+	margin-top: 20px;
+	color: white;
+}
+.visitor-induction-box-right-line {
+	margin-left: 80px;
+	width: 60px;
+	height: 2px;
+	background-color: #FF8300FF;
+}
+.visitor-induction-box-left-button {
+	display: block;
+	position: absolute;
+	padding: 6px;
+	padding-left: 10px;
+	left: 50px;
+	bottom: 30px;
+	width: 120px;
+	height: 35px;
+	border: 2px solid white;
+	letter-spacing: 3px;
+	border-radius: 15px;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+.visitor-induction-box-left-button:hover {
+	text-decoration: none;
+	color: white;
+}
+/*介绍界面结束*/
+/*推荐界面开始*/
+.visitor-recommend {
+/*	background-image: url(../img/timg23.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+.visitor-recommend-lunbobox ,.visitor-blog-lunbobox {
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+.visitor-recommend-lunbo ,.visitor-blog-lunbo {
+	margin: 0 auto;
+	width: 700px;
+	height: 400px;
+}
+.visitor-recommend-lunbo a {
+	display: none;
+}
+.visitor-recommend-lunbo a:first-child {
+	display: inline;
+}
+.visitor-recommend-lunbo img ,.visitor-blog-lunbo-box {
+	margin:0 auto;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+}
+.visitor-recommend-lunbo-text {
+	position: absolute;
+	color: white;
+	bottom: 200px;
+	width: 700px;
+	height: 0;
+	background-color: rgba(48, 48, 48, 0.4);
+	padding: 0;
+	z-index: 100;
+	transition: .6s;
+	/*当文字超出时省略*/
+/*	overflow: hidden;
+	text-overflow: clip;*/
+}
+.visitor-recommend-lunbo:hover .visitor-recommend-lunbo-text{
+	height: 120px;
+	padding: 10px;
+}
+.visitor-recommend-lunbo-text h1 {
+	margin: 10px;
+	font-size: 22px;
+}
+.visitor-recommend-lunbobox ul {
+	width: 470px;
+	position: absolute;
+	bottom: 150px;
+	right: 35px;
+	z-index: 5;
+}
+.visitor-recommend-lunbobox ul li {
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	box-shadow: 2px 2px 3px #4C4C4CFF;
+	float: left;
+	list-style: none;
+	border: 2px solid white;
+	text-align: center;
+	margin: 0px 30px 0px 0px;
+	transition: 0.4s;
+}
+.visitor-recommend-lunbo-line-white {
+	margin-top: 60px;
+	text-align: center;
+	color: white;
+}
+.visitor-recommend-lunbo-line-ls {
+	letter-spacing: 5px;
+}
+/*推荐界面结束*/
+/*博客专区*/
+.visitor-blog {
+	/*background-color: pink;*/
+}
+.visitor-blog-lunbobox {
+	margin-top: 160px;
+	width: 1100px;
+}
+.visitor-blog-lunbo {
+	width: 1100px;
+	height: 300px;
+}
+.visitor-blog-lunbo-box {
+	display: none;
+	width: 1100px;
+	height: 300px;
+	text-align: center;
+}
+.visitor-blog-lunbo-box div{
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	height: 270px;
+	margin-left: 34px;
+	background-color: white;
+}
+.visitor-blog-lunbo-box:first-child {
+	display: inline;
+}
+.visitor-blog-lunbo-box h5{
+	font-size: 16px;
+}
+.visitor-blog-lunbo-box p{
+	color: blue;
+	font-size: 16px;
+}
+.visitor-blog-lunbo-box img{
+	width: 100%;
+	height: 200px;
+}
+.visitor-blog-lunbobox ul {
+	width: 700px;
+	position: absolute;
+	bottom: 180px;
+	left: 300px;
+	z-index: 5;
+}
+.visitor-blog-lunbobox ul li {
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	font-weight: lighter;
+	font-size: 18px;
+	border: 3px solid white;
+	text-align: center;
+	margin: 0px 25px 0px 0px;
+}
+/*博客界面结束*/
+.visitor-joinus {
+	padding-top: 50px;
+	position: relative;
+	height: 550px;
+	/*background-color: black;*/
+}
+.visitor-joinus-vedio {
+	margin:0 auto;
+	width: 700px;
+	height: 350px;
+	background-color: #0094FFFF;
+}
+.visitor-joinus button {
+	display: block;
+	margin:0 auto;
+	margin-top: 20px;
+	padding: 6px;
+	padding-left: 8px;
+	width: 120px;
+	height: 35px;
+	border: 2px solid white;
+	letter-spacing: 2px;
+	border-radius: 15px;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+/*窗口选择器的css*/
+.visitor-index {
+	position: fixed;
+	right: 20px;
+	top: 37%;
+	width: 180px;
+	height: 300px;
+}
+.visitor-index > div {
+	position: relative;
+	width: 100%;
+	height: 20%;
+}
+.visitor-index-text {
+	display: none;
+	position: absolute;
+	right: 45px;
+	top: 5px;
+	height: 30px;
+	width: 130px;
+	padding-top: 3px;
+	padding-left: 5px;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	letter-spacing: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+.visitor-index-point {
+	position: absolute;
+	right: 13px;
+	top: 20px;
+	height: 5px;
+	width: 5px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+	color: white;
+	transition: 0.6s;
+}
+.visitor-index-point:hover {
+	padding-top: 5px;
+	top: 6px;
+	right: 0;
+	height: 30px;
+	width: 30px;
+	background-color: #7F92FFFF;
+}
+.visitor-index-point-inex {
+	padding-top: 5px;
+	top: 6px;
+	right: 0;
+	height: 30px;
+	width: 30px;
+	background-color: #7F92FFFF;
+}
+/*弹窗 运用固定定位*/
+.tc-back {
+	display: none;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	background-color: rgba(237, 237, 237, 0.8);
+}
+.tc-back-cell {
+	width: 100%;
+	height: 100%;
+    text-align: center;
+}
+.tc-back-tx {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+}
+.tc-back span {
+	display: inline-block;
+	width: 0 auto;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.tc-back span:hover {
+	color: #FF7900FF;
+}
+#close {
+	font-size: 50px;
+}
+.tc-back-cell input {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	height: 30px;
+	width: 220px;
+}
+.tc-back-cell input:focus {
+	border-color: #FF7900FF;
+}
+.tc-back-cell label {
+	font-size: 16px;
+}
+.visitor-login-submit {
+	color: black;
+	margin-top: 10px;
+	width: 150px!important;
+}
+.control-label {
+	font-family: 'Microsoft YaHei';
+	font-weight: lighter;
+}
+/*弹窗动画*/
+@-webkit-keyframes moveUp {
+    from
+    {
+        transform:translateY(30px);
+        opacity: 0;
+    }
+    to
+    {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes moveDown {
+    from
+    {
+    	transform:translateY(0);
+        opacity: 1;
+    }
+    to
+    {
+    	transform:translateY(30px);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moveLeft {
+    from
+    {
+    	transform:translateX(20px);
+        opacity: 0;
+    }
+    to
+    {
+    	transform:translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes moveRight {
+    from
+    {
+    	transform:translateX(0);
+        opacity: 1;
+    }
+    to
+    {
+    	transform:translateX(20px);
+        opacity: 0;
+    }
+}
+/*报名表的css*/
+        .a {
+            float: left;
+        }
+
+        .Back {
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 10;
+            display: none;
+        }
+
+        .hhh {
+            position: absolute;
+            z-index: 5;
+        }
+
+        .EntryForm {
+            background-color: rgb(255, 255, 255);
+            width: 55%;
+            height: 75%;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .grade{
+            width: 225px;
+        }
+        .gradeselect{
+            width: 162px;
+        }
+        .textarea{
+            width: 650px;
+            height: 140px;
+            resize: none;
+        }
+        .Email{
+            width: 650px;
+        }
+        .EntryButton{
+            float: right;
+            width: 180px;
+            color: aliceblue;
+            background-color: rgb(1, 167, 218);
+            border: none;
+            border-radius:3px; 
+            margin: 0 16px 0 0;
+            font-size: 16px;
+        }
+.visitor-joinus-copy {
+	position: relative;
+	margin-top: 50px;
+	height: 250px;
+	width: 100%;
+	cursor: default;
+	background-color: rgba(0, 51, 102, 1);
+}
+.visitor-joinus-copy img {
+	position: absolute;
+}
+.vsitor-white-line {
+	bottom: 90px;
+	left: 170px;
+}
+.vsitor-joinus-biaoti {
+	top: 70px;
+	left: 160px;
+	width: 500px;
+	height: 50px;
+}
+.vsitor-red-line {
+	top: 140px;
+	left: 280px;
+	height: 5px;
+	width: 330px;
+}
+.visitor-joinus-zi {
+	height: 60px;
+	width: 588px;
+	top: 150px;
+	left: 390px;
+}
+.visitor-ma {
+	right: 180px;
+	top: 70px;
+	width: 150px;
+	height: 150px;
+}
+.visitor-joinus-contact {
+	position: absolute;
+	top: 70px;
+	left: 630px;
+	padding: 20px;
+	width: 380px;
+	height: 150px;
+	color: #EDEDEDFF;
+	font-size: 16px;
+	line-height: 40px;
+}
+.visitor-joinus-ma-text {
+	position: absolute;
+	top: 50px;
+	right: 190px;
+	color: #EDEDEDFF;
+	font-size: 16px;
+}
